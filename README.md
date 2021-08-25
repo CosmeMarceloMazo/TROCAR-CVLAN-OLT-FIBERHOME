@@ -27,10 +27,10 @@ Para o funcionamento correto do script baixe as bibliotecas
  ![figura2](https://user-images.githubusercontent.com/46397610/130874461-5a9ed7b3-1fa9-4f51-8a3d-03c27a54ee49.png)
 
 <p>
-    Aqui você indica qual o Slot e a Porta que as ONU estão autorizadas.
+    Aqui você indica qual o Slot e a porta PON que as ONU estão autorizadas.
 </p> 
 <p>
-    Repare que na barra de rolagem você indica qual o intervalo de ONU a ser manipulado;
+    Repare que na barra de rolagem você indica qual o intervalo de ONU a ser manipulado, neste caso serão alteradas da 4 até a 14 em um total de 66 ONU;
 </p>
 
  ![figura3](https://user-images.githubusercontent.com/46397610/130876491-5f33c223-c036-422c-ba3f-44820d5a9678.png)
