@@ -14,7 +14,7 @@ from telnetlib import Telnet
 import PySimpleGUI as sg
 import time
 
-host = '177.84.176.173' # Coloque o IP do seu servidor UNM2000
+host = '192.168.1.10' # Coloque o IP do seu servidor UNM2000
 
 select1 = (1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18)
 
