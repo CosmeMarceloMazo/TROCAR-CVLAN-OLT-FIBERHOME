@@ -204,12 +204,13 @@ while True:
                    terminal = Telnet(host, 3337)           
                    time.sleep(3)
                    terminal.write(login.encode('ascii') + b"\n")
-                   time.sleep(3)
+                   time.sleep(2)
                        
                    while int(n1) <= int(onu) :
                        
                        cvlanID = 'CFG-LANPORTVLAN::OLTID='+oltIP+',PONID=NA-NA-'+str(slot)+'-'+str(pon)+',ONUIDTYPE=ONU_NUMBER,ONUID='+str(n1)+',ONUPORT=NA-NA-NA-1:CTAG::CVLAN='+vlan+',CCOS=3;'
                        terminal.write(cvlanID.encode('ascii') + b"\n")
+                       time.sleep(1)
                        reset = 'RESET-ONU::OLTID='+oltIP+',PONID=NA-NA-'+str(slot)+'-'+str(pon)+',ONUIDTYPE=ONU_NUMBER,ONUID='+str(n1)+':CTAG::;'
                        n1 += 1
                        progress_bar.UpdateBar(n1, onu)
